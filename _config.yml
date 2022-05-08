@@ -10,6 +10,8 @@ favicon: /assets/icon.png
 made_by: Made by [Drusy](https://github.com/drusy)
 
 links:
+  - title: Donation
+    url: https://paypal.me/kevinrenella
   - title: Exile Companion
     url: https://drusy.github.io/exile-companion
   - title: Vampire Survivors Companion
