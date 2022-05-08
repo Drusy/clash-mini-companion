@@ -1,0 +1,62 @@
+app_name: Clash Mini Companion
+app_subtitle: Unofficial Clash Mini Helper
+app_download: https://apps.apple.com/app/id1534437697
+app_github: 
+app_id: 1622795368
+email: kevin.renella@gmail.com
+app_icon: /assets/icon.png
+favicon: /assets/icon.png
+
+made_by: Made by [Drusy](https://github.com/drusy)
+
+links:
+  - title: Exile Companion
+    url: https://drusy.github.io/exile-companion
+  - title: Vampire Survivors Companion
+    url: https://drusy.github.io/vampire-survivors-companion
+
+app_description: |
+    Unofficial Clash Mini companion app.  
+    
+    ## Features
+    
+    - Team comps (decks)
+    - Minis Wiki
+    - Heroes Wiki
+    - Deck Builder
+    - Share deck/comp with community
+    - Theme selector  
+    
+    ## Disclaimer
+    
+    This app is not the official Clash Mini application and is not related to Supercell in any way.  
+    This app is a helper, it's not a game.
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+plugins:
+  - jekyll-postcss
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - .gitignore
+  - node_modules
+
+markdown: kramdown
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: "assets/screenshots"
+    values:
+      screenshot: true
